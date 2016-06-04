@@ -1,0 +1,172 @@
+html {
+    font-family: 'Arimo', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#top {
+    position: absolute;
+    z-index: 1;
+    padding-top: 15px;
+    width: 100%;
+    background-color: rgba(50, 48, 80, 0.3)
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu a {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.menu a:hover {
+    border-top: 2px solid #3366ff;
+    padding-top: 29px;
+    color: #3366ff;
+}
+
+.menu li {
+    display: inline;
+    margin: 32px;
+}
+
+.menu {
+    float: right;
+    margin-right: 100px;
+}
+
+#top p {
+    display: inline-block;
+    color: #666666;
+    margin-left: 25px;
+    padding-left: 20px;
+    border-left: 1px solid #3366ff;
+}
+
+.bg_photo img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#txt {
+    position: absolute;
+    top: 480px;
+}
+
+.sarajevo {
+    width: 400px;
+}
+
+.sarajevo img {
+    width: 100%;
+}
+
+.creat {
+    margin-top: 20px;
+    width: 750px;
+}
+
+.creat img {
+    width: 100%;
+}
+
+.team p {
+    font-size: 25px;
+    color: #eee;
+}
+
+.soc {
+    position: relative;
+    top: -240px;
+}
+
+.soc i {
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.opasity {
+    opacity: 0.3;
+}
+
+i.opasity:hover {
+    opacity: 1;
+}
+
+.features {
+    background-color: #efefef;
+    margin-top: -30px;
+    height: 450px;
+}
+
+.first h1 {
+    text-transform: uppercase;
+    color: #839cfb;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.first i {
+    color: #c2c2c2;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.second div {
+    width: 400px;
+    color: #7d838a;
+    line-height: 160%;
+}
+
+.second h3 {
+    color: #000000;
+    font-weight: normal;
+}
+.inst-head {
+    text-align: center;
+}
+.inst-head p {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 70px;
+    width: 50em;
+    line-height: 160%;
+}
+.left {
+    width: 350px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.left p {
+    color: #7d838a;
+}
+.center {
+    margin-top: -600px;
+    margin-left: -200px;
+}
+
+.right {
+    width: 350px;
+    margin-right: 140px;
+    margin-top: 20px;
+}
