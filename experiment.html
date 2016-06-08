@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .hovereffect {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            cursor: default;
+        }
+        
+        .hovereffect .overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            background-color: rgba(87, 124, 247, 0.9);
+            transition: all .4s ease-in-out
+        }
+        
+        .hovereffect img {
+            display: inline-block;
+            position: relative;
+            transition: all .4s linear;
+        }
+        
+        .hovereffect p {
+            color: #fff;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+        
+        .hov-txt-one {
+            margin-top: 30%;
+        }
+        
+        .hov-txt-two {
+            font-size: 12px;
+        }
+        
+        .hovereffect:hover img {
+            transform: scale(1.2);
+        }
+        
+        .hovereffect:hover .overlay {
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <article layout="row center-center">
+
+        <div class="team-photo" style="width:224px">
+            <div class="hovereffect">
+                <img src="img/team-1.png" alt="">
+                <div class="overlay">
+                    <p class="hov-txt-one">Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p class="hov-txt-two">ipsum dolor sit amet, consectetur adipisicing elit. Non omnis soluta dolore consectetur mollitia obcaecati.</p>
+                </div>
+            </div>
+            <figcaption>
+                <p class="name">John Filmr Doe</p>
+                <p class="position">Managing Director</p>
+            </figcaption>
+        </div>
+
+
+
+<!--
+        <div style="width: 294px">
+            <div class="hovereffect">
+                <img class="img-responsive" src="img/photo-1.png" alt="kong">
+                <div class="overlay">
+                    <p class="hov-txt-one">Labore et dolore magnam</p>
+                    <p class="hov-txt-two">Photography</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="team-photo">
+            <div class="img">
+                <img src="img/team-2.png" alt="">
+            </div>
+            <figcaption>
+                <p class="name">Chystine Hineu</p>
+                <p class="position">Lead Designer</p>
+            </figcaption>
+        </div>
+        <div class="team-photo">
+            <div class="img">
+                <img src="img/team-3.png" alt="">
+            </div>
+            <figcaption>
+                <p class="name">Martin Matrone</p>
+                <p class="position">Lead Developer</p>
+            </figcaption>
+        </div>
+        <div class="team-photo">
+            <div class="img">
+                <img src="img/team-4.png" alt="">
+            </div>
+            <figcaption>
+                <p class="name">Steve Flaulkin</p>
+                <p class="position">Sr. UI Designer</p>
+            </figcaption>
+        </div>
+-->
+    </article>
+    <!--
+    <div style="width: 294px">
+        <div class="hovereffect">
+            <img class="img-responsive" src="img/photo-1.png" alt="kong">
+            <div class="overlay">
+                <p class="hov-txt-one">Labore et dolore magnam</p>
+                <p class="hov-txt-two">Photography</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 294px">
+        <div class="hovereffect">
+            <img class="img-responsive" src="img/photo-2.png" alt="kong">
+            <div class="overlay">
+                <p class="hov-txt-one">Labore et dolore magnam</p>
+                <p class="hov-txt-two">Photography</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 294px">
+        <div class="hovereffect">
+            <img class="img-responsive" src="img/photo-3.png" alt="kong">
+            <div class="overlay">
+                <p class="hov-txt-one">Labore et dolore magnam</p>
+                <p class="hov-txt-two">Photography</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 294px">
+        <div class="hovereffect">
+            <img class="img-responsive" src="img/photo-4.png" alt="kong">
+            <div class="overlay">
+                <p class="hov-txt-one">Labore et dolore magnam</p>
+                <p class="hov-txt-two">Photography</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 294px">
+        <div class="hovereffect">
+            <img class="img-responsive" src="img/photo-5.png" alt="kong">
+            <div class="overlay">
+                <p class="hov-txt-one">Labore et dolore magnam</p>
+                <p class="hov-txt-two">Photography</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 294px">
+        <div class="hovereffect">
+            <img class="img-responsive" src="img/photo-6.png" alt="kong">
+            <div class="overlay">
+                <p class="hov-txt-one">Labore et dolore magnam</p>
+                <p class="hov-txt-two">Photography</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 294px">
+        <div class="hovereffect">
+            <img class="img-responsive" src="img/photo-7.png" alt="kong">
+            <div class="overlay">
+                <p class="hov-txt-one">Labore et dolore magnam</p>
+                <p class="hov-txt-two">Photography</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 294px">
+        <div class="hovereffect">
+            <img class="img-responsive" src="img/photo-8.png" alt="kong">
+            <div class="overlay">
+                <p class="hov-txt-one">Labore et dolore magnam</p>
+                <p class="hov-txt-two">Photography</p>
+            </div>
+        </div>
+    </div>
+-->
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
