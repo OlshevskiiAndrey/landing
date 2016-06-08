@@ -1,0 +1,32 @@
+@media screen and (max-width: 1075px) {
+    .menu li {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .txt {
+        top: 145px;
+    }
+    .sarajevo {
+        width: 200px;
+    }
+    .creat {
+        width: 500px;
+        margin-top: 10px;
+    }
+    .prof p {
+        font-size: 20px;
+    }
+    .block-head h1 {
+        padding-top: 15px;
+    }
+    .feat-blocks div {
+        width: 30%;
+    }
+    .left,
+    .right {
+        width: 250px;
+    }
+    
+}

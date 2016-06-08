@@ -29,7 +29,7 @@
     }
     
     .menu {
-        display: inline-block;
+        margin-right: 100px;
     }
     
     .menu a {
@@ -48,9 +48,8 @@
         margin: 32px;
     }
     
-    .menu {
-        float: right;
-        margin-right: 100px;
+    .menu ul {
+        padding-left: 0;
     }
     
     .top p {
@@ -132,19 +131,20 @@
         margin-bottom: 30px;
     }
     
-    .second div {
-        width: 400px;
+    .feat-blocks div {
+        width: 20%;
         color: #7d838a;
         line-height: 160%;
     }
     
-    .second h3 {
+    .feat-blocks h3 {
         color: #000000;
         font-weight: normal;
     }
     
     .col-head {
         margin-top: 50px;
+        line-height: 160%;
     }
     
     .left {
@@ -174,7 +174,7 @@
     .columns .left,
     .center,
     .right {
-        margin-top: 100px;
+        margin-top: 50px;
     }
     
     .left div:hover,
@@ -186,6 +186,7 @@
         font-size: 16px;
         color: #5b646e;
         text-align: center;
+        line-height: 160%;
     }
     
     .work-nav a {
@@ -211,6 +212,10 @@
         background-color: #4c76ff;
         border-radius: 5px;
         padding: 5px;
+    }
+    
+    .photo {
+        width: 100%;
     }
     
     .portfolio {
@@ -532,4 +537,11 @@
         display: inline-block;
         padding-left: 0;
         margin-right: 40px
+    }
+    
+    @media screen and (max-width: 1075px;
+    ) {
+        .menu li {
+            display: block;
+        }
     }
