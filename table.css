@@ -28,5 +28,22 @@
     .right {
         width: 250px;
     }
-    
+    .discuss article {
+        margin: 50px 0;
+    }
+    .adres p {
+        width: 60%;
+    }
+    .email {
+        margin-left: 0;
+    }
+    .discuss-soc {
+        margin-right: 50px;
+    }
+    .subscribe div {
+        width: 230px;
+    }
+    .subscribe p {
+        width: 230px;
+    }
 }
