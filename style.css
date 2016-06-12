@@ -1,5 +1,5 @@
     html {
-        font-family: 'Arimo', sans-serif;
+        font-family: 'Open Sans', sans-serif;
     }
     
     body {
@@ -60,43 +60,52 @@
         border-left: 1px solid #3366ff;
     }
     
-    .bg_photo img {
+    .bg-photo {
+        position: relative;
+    }
+    
+    .bg-photo {}
+    
+    .bg-photo img {
         width: 100%;
         height: auto;
-        position: relative;
     }
     
     .txt {
         position: absolute;
-        top: 480px;
+        top: 35%;
     }
     
-    .sarajevo {
-        width: 400px;
+    .txt p {
+        color: #fff;
     }
     
-    .sarajevo img {
-        width: 100%;
+    .sar {
+        display: inline-block;
+        font-size: 100px;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .dot {
+        color: #4c76ff;
     }
     
     .creat {
-        margin-top: 20px;
-        width: 750px;
+        display: block;
+        font-size: 60px;
+        margin: 60px 0;
     }
     
-    .creat img {
-        width: 100%;
+    .other-color {
+        color: #4962c2;
     }
     
-    .prof p {
-        font-size: 25px;
-        color: #eee;
-        margin-bottom: 150px;
+    .other-txt {
+        font-size: 35px;
+        margin-bottom: 90px;
     }
     
-    .soc {
-        position: relative;
-    }
     
     .soc i {
         color: #ffffff;
@@ -214,16 +223,22 @@
         padding: 5px;
     }
     
-    .photo {
-        width: 100%;
+    .work {
+        text-align: center
     }
     
-    .portfolio {
-        width: 294px;
+    .photo, .team-photo {
+        width: 65%;
+        display: inline-block;
+        text-align: center;
     }
     
     .hovereffect {
-        width: 100%;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    .hovereffect {
         height: 221px;
         overflow: hidden;
         position: relative;
@@ -381,7 +396,7 @@
         width: 400px;
         margin-left: 50px;
     }
-        
+    
     .adres span {
         color: #233443;
         font-size: 26px;
@@ -392,7 +407,7 @@
         width: 50%;
         line-height: 160%;
     }
-
+    
     .form {
         display: inline-block;
         width: 60%;
