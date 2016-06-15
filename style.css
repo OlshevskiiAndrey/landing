@@ -106,7 +106,6 @@
         margin-bottom: 90px;
     }
     
-    
     .soc i {
         color: #ffffff;
         font-size: 25px;
@@ -227,7 +226,8 @@
         text-align: center
     }
     
-    .photo, .team-photo {
+    .photo,
+    .team-photo {
         width: 65%;
         display: inline-block;
         text-align: center;
