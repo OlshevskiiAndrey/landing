@@ -1,49 +1,109 @@
+@media screen and (max-width: 1750px) {
+    .txt {
+        top: 40%;
+        left: 32%
+    }
+    .sar {
+        font-size: 70px
+    }
+    .creat {
+        font-size: 45px;
+        margin: 30px 0;
+    }
+    .other-txt {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .txt {
+        left: 30%;
+    }
+    .feat-blocks {
+        text-align: center;
+    }
+    .feat-blocks div {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .txt {
+        top: 40%;
+        left: 28%;
+    }
+    .sar {
+        font-size: 60px;
+    }
+    .creat {
+        font-size: 40px;
+    }
+    .other-txt {
+        margin-bottom: 100px;
+    }
+    .block-head i {
+        margin-bottom: 10px;
+    }
+    .form {
+        width: 45%
+    }
+    .map i {
+        font-size: 40px;
+        left: 380px;
+    }
+    .subscribe div {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .txt {}
+    .sar {
+        font-size: 50px;
+    }
+    .creat {
+        font-size: 35px;
+    }
+    .other-txt {
+        margin-bottom: 70px;
+    }
+    .feat-blocks div {
+        width: 25%;
+        font-size: 15px;
+    }
+    .text {
+        max-width: 95%;
+    }
+    .left,
+    .right {
+        width: 300px;
+    }
+    .adres {
+        margin-top: -25px;
+    }
+    .form {
+        width: 40%;
+    }
+    .email {
+        display: block;
+        margin: 0;
+    }
+    .foot-one p {
+        width: 220px;
+    }
+}
+
 @media screen and (max-width: 1075px) {
     .menu li {
         margin: 20px;
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .txt {
-        top: 145px;
-    }
-    .sarajevo {
-        width: 200px;
-    }
-    .creat {
-        width: 500px;
-        margin-top: 10px;
-    }
-    .prof p {
-        font-size: 20px;
-    }
-    .block-head h1 {
-        padding-top: 15px;
-    }
-    .feat-blocks div {
-        width: 30%;
-    }
-    .left,
-    .right {
-        width: 250px;
-    }
-    .discuss article {
-        margin: 50px 0;
-    }
-    .adres p {
-        width: 60%;
-    }
-    .email {
-        margin-left: 0;
-    }
-    .discuss-soc {
-        margin-right: 50px;
-    }
-    .subscribe div {
-        width: 230px;
-    }
-    .subscribe p {
-        width: 230px;
-    }
-}
+
+/*@media screen and (max-width:) {}*/
+
+/*@media screen and (max-width:) {}*/
+
+/*@media screen and (max-width:) {}*/
+
+/*@media screen and (max-width:) {}*/
