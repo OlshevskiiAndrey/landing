@@ -340,36 +340,45 @@
     
     .city {
         margin-top: 100px;
+        height: 448px;
     }
     
     .city img {
-        position: relative;
+        position: absolute;
+        width: 100%;
+        height: 448px;
     }
     
     .fun {
-        position: absolute;
-        margin-top: -150px;
+        position: relative;
+        text-align: center;
+        top: 20px
     }
     
     .fun h1 {
         text-transform: uppercase;
         color: #839cfb;
         font-size: 30px;
-        padding-top: 50px;
     }
     
     .fun i {
         color: #fff;
         font-size: 25px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     
     .facts {
-        position: absolute;
-        margin-top: 60px
+        position: relative;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .info {
+        display: inline-block
     }
     
     .icon {
+        display: inline-block;
         position: relative;
         color: #fff;
         padding: 30px;
@@ -382,6 +391,7 @@
     }
     
     .facts figcaption {
+        display: inline-block;
         color: #fff;
         text-align: center;
     }
@@ -398,7 +408,7 @@
     }
     
     .discuss article {
-        margin-top: 80px;
+        margin-top: 120px;
         margin-bottom: 80px;
     }
     
