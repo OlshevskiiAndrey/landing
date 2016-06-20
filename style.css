@@ -447,6 +447,12 @@
         padding: 15px;
     }
     
+    form input:focus {
+        border: 0 solid;
+        outline: none;
+        border-bottom: 1px solid #000;
+    }
+    
     .name,
     .email {
         width: 48%;

@@ -1,4 +1,42 @@
-@media screen and (max-width: 850px) {
+@media screen and (max-width:970px) {
+    .menu li {
+        margin: 15px;
+    }
+    .feat-blocks div {
+        width: 30%;
+    }
+    .subscribe div {
+        width: 180px;
+    }
+    .explore ul {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .other-txt {
+        margin-bottom: 50px;
+    }
+    .adres {
+        margin-left: 0;
+        /*        width: 300px;*/
+    }
+    .foot-one {
+        margin-left: 20px;
+    }
+    .foot-one p,
+    .subscribe p {
+        font-size: 14px;
+    }
+    .explore ul {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .logo {
+        margin-left: 50px;
+    }
     .sar {
         font-size: 40px;
     }
@@ -7,8 +45,33 @@
     }
     .other-txt {
         font-size: 20px;
+        margin-bottom: 50px;
     }
 }
+
+@media screen and (max-width:845px) {
+    .menu {
+        margin-right: 10px;
+    }
+    .left,
+    .right {
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .txt {
+        top: 30%;
+        left: 25%;
+    }
+    .feat-blocks div {
+        width: 30%;
+        font-size: smaller
+    }
+}
+
+
+/*@media screen and (max-width:) {}*/
 
 
 /*@media screen and (max-width:) {}*/

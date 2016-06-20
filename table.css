@@ -63,7 +63,6 @@
 }
 
 @media screen and (max-width:1024px) {
-    .txt {}
     .sar {
         font-size: 50px;
     }
@@ -96,20 +95,5 @@
     }
     .foot-one p {
         width: 220px;
-    }
-}
-
-@media screen and (max-width:945px) {
-    .menu li {
-        margin: 15px;
-    }
-    .feat-blocks div {
-        width: 30%;
-    }
-    .subscribe div {
-        width: 180px;
-    }
-    .explore ul {
-        margin-right: 20px;
     }
 }
