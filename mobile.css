@@ -47,6 +47,12 @@
         font-size: 20px;
         margin-bottom: 50px;
     }
+    .columns article {
+        max-width: 95%;
+    }
+    .center {
+        margin: 200px 20px;
+    }
 }
 
 @media screen and (max-width:845px) {
@@ -56,6 +62,18 @@
     .left,
     .right {
         font-size: smaller;
+    }
+    .center {
+        margin: 50px 20px;
+    }
+    .columns article {
+        max-width: 95%;
+    }
+    .adres {
+        margin-left: 25px;
+    }
+    .discuss-soc {
+        margin-right: 30px;
     }
 }
 
