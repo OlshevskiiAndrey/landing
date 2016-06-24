@@ -1,0 +1,54 @@
+@media screen and (max-width:760px) {
+    .txt {
+        top: 30%;
+        left: 25%;
+    }
+    .feat-blocks div {
+        width: 30%;
+        font-size: smaller
+    }
+}
+
+@media screen and (max-width:670px) {
+    .adres span {
+        font-size: 23px;
+    }
+    .adres {
+        margin-top: -35px;
+    }
+    footer {
+        display: inline-block;
+        text-align: center;
+    }
+    .foot-one,
+    .subscribe,
+    .explore {
+        display: inline-table;
+        margin-left: 20px;
+    }
+    .explore {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .foot-one {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .foot-one {
+        padding-right: 0;
+    }
+}
+
+
+/*@media screen and (max-width:) {}*/
+
+
+/*@media screen and (max-width:) {}*/
+
+
+/*@media screen and (max-width:) {}*/
+
+
+/*@media screen and (max-width:) {} */

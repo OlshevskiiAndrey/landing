@@ -204,6 +204,10 @@
         line-height: 160%;
     }
     
+    .work-nav {
+        max-width: 98%
+    }
+    
     .work-nav a {
         text-transform: capitalize;
         color: #062033;
@@ -512,6 +516,9 @@
     
     footer {
         background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     
     .foot-one {
@@ -519,7 +526,7 @@
         display: inline-block;
         width: 250px;
         line-height: 160%;
-        margin-left: 100px;
+        margin-left: 50px;
         font-size: 15px;
         margin-top: 50px;
     }
