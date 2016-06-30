@@ -1,23 +1,20 @@
-@media screen and (max-width: 1750px) {
+@media screen and (max-width: 1430px) {
+    .menu li {
+        margin: 0 20px;
+    }
     .txt {
-        top: 40%;
-        left: 32%
+        top: 25%;
+        left: 22%;
     }
     .sar {
-        font-size: 70px
+        font-size: 70px;
     }
     .creat {
-        font-size: 45px;
-        margin: 30px 0;
+        font-size: 50px;
+        margin: 25px;
     }
     .other-txt {
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .txt {
-        left: 30%;
+        font-size: 30px;
     }
     .feat-blocks {
         text-align: center;
@@ -29,8 +26,8 @@
 
 @media screen and (max-width:1200px) {
     .txt {
-        top: 40%;
-        left: 28%;
+        top: 25%;
+        left: 25%;
     }
     .sar {
         font-size: 60px;

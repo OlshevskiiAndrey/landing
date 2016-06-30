@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>sarajevo.</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/big.css">
@@ -12,26 +13,28 @@
     <link rel="stylesheet" href="css/flex-layout-attribute.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
 
 </head>
 
 <body>
-    <header class="top" layout="row center-justify">
-        <div class="logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
-        </div>
-        <p><i>I'm your tag line</i></p>
-
-        <nav class="menu navbar navbar-default navbar-fixed-top" self="right">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+    <header class="top">
+        <nav class="menu navbar navbar-default">
+            <div class="navbar-header">
+                <div class="navbar-brand hidden-xs">
+                    <div class="logo hidden-xs">
+                        <a href="#"><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <p class="hidden-sm hidden-xs"><i>I'm your tag line</i></p>
                 </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
+
             <div class="navbar-collapse collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="#">home</a></li>
@@ -368,7 +371,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, temporibus esse recusandae eligendi voluptatibus libero ad cupiditate soluta officia in.
         </p>
 
-        <article layout="row center-center">
+        <article>
             <div class="adres">
                 <span>Cras at ultrices erat, sed vulputate!</span>
                 <p>2345 Setwant natrer, 1234, Washington, United States. (401) 1234 567 hello@brandi.com www.brandi.com</p>
@@ -395,12 +398,14 @@
             </div>
         </article>
 
+        <!--
         <div class="map" layout="row center-center">
-            <div class="image">
-                <img src="img/map.png" alt="">
-            </div>
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-        </div>
+    <div class="image">
+        <img src="img/map.png" alt="">
+    </div>
+    <i class="fa fa-map-marker" aria-hidden="true"></i>
+</div>
+-->
     </div>
 
     <footer>

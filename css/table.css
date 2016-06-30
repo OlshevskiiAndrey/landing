@@ -1,6 +1,9 @@
-@media screen and (max-width:970px) {
-    .menu li {
-        margin: 15px;
+@media screen and (max-width:980px) {
+    .menu > li > a {
+        padding: 15px 8px;
+    }
+    .logo {
+        margin-left: 20px;
     }
     .feat-blocks div {
         width: 30%;
@@ -33,9 +36,11 @@
 }
 
 @media screen and (max-width: 895px) {
+    /*
     .logo {
-        margin-left: 50px;
-    }
+    margin-left: 50px;
+}
+*/
     .sar {
         font-size: 40px;
     }

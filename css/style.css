@@ -20,16 +20,12 @@
         z-index: 1;
         padding-top: 15px;
         width: 100%;
-        background-color: rgba(50, 48, 80, 0.3)
+        /*        background-color: rgba(50, 48, 80, 0.3)*/
     }
     
     .logo {
         display: inline-block;
-        margin-left: 100px;
-    }
-    
-    .menu {
-        margin-right: 100px;
+        margin-left: 50px;
     }
     
     .menu a {
@@ -38,18 +34,16 @@
     }
     
     .menu a:hover {
-        border-top: 2px solid #3366ff;
-        padding-top: 29px;
         color: #3366ff;
     }
     
     .menu li {
-        display: inline;
-        margin: 32px;
+        margin: 0 50px;
     }
     
-    .menu ul {
-        padding-left: 0;
+    .navbar-header,
+    .navbar-brand {
+        display: inline-block;
     }
     
     .top p {
@@ -71,7 +65,7 @@
     
     .txt {
         position: absolute;
-        top: 35%;
+        top: 30%;
         left: 28%;
         text-align: center;
     }
@@ -147,6 +141,7 @@
         width: 20%;
         color: #7d838a;
         line-height: 160%;
+        display: table-cell;
     }
     
     .feat-blocks h3 {
@@ -403,23 +398,24 @@
     .num {
         font-size: 50px;
         font-weight: 600;
-        margin-top: 30px;
     }
     
     .fig-text {
         text-transform: uppercase;
-        margin-top: -40px;
+        margin-top: -20px;
     }
     
     .discuss article {
-        margin-top: 120px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
         margin-bottom: 80px;
     }
     
     .adres {
         display: inline-block;
-        width: 400px;
-        margin-left: 50px;
+        width: 300px;
+        margin: 0 50px;
     }
     
     .adres span {
@@ -435,7 +431,7 @@
     
     .form {
         display: inline-block;
-        width: 60%;
+        width: 50%;
         margin-top: -15px;
         align-self: flex-start;
     }
@@ -469,6 +465,7 @@
     .message {
         width: 99%;
         margin-top: 15px;
+        margin-bottom: 20px;
     }
     
     .fa-envelope {
@@ -477,8 +474,6 @@
     
     .form a {
         color: #000;
-        text-align: right;
-        padding-right:
     }
     
     .discuss-soc {
@@ -497,21 +492,6 @@
     
     .discuss-soc a:hover {
         color: #4c76ff;
-    }
-    
-    .image {
-        width: 100%;
-    }
-    
-    .image img {
-        width: 100%;
-    }
-    
-    .map i {
-        color: #4c76ff;
-        font-size: 50px;
-        position: absolute;
-        left: 570px;
     }
     
     footer {
