@@ -69,20 +69,20 @@
             <h1>features</h1>
             <i class="fa fa-heart-o" aria-hidden="true"></i>
         </div>
-        <div class="feat-blocks" layout="row center-spread">
-            <div class="brand" layout="column top-center">
+        <div class="feat-blocks">
+            <div class="brand">
                 <h3>Branding</h3>
                 <img src="img/feather.png" alt="перо">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In eum minus accusamus, ab soluta vero commodi voluptates doloribus aspernatur alias id molestiae ipsa assumenda veritatis ullam facere maiores aliquid nihil.
                 </p>
             </div>
-            <div class="develop" layout="column top-center">
+            <div class="develop">
                 <h3>Development</h3>
                 <img src="img/pen.png" alt="карандаш">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, quam culpa vel nulla minima at veritatis assumenda labore. Tempore culpa voluptates quo quod error possimus odio voluptatum quam aperiam debitis?
                 </p>
             </div>
-            <div class="consult" layout="column top-center">
+            <div class="consult">
                 <h3>Consulting</h3>
                 <img src="img/bullhorn.png" alt="рупор">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero maiores earum iste, ab, repudiandae possimus nisi eveniet! Dolore, expedita libero placeat dolorum impedit, doloribus officiis incidunt, maiores ad, ipsum non!
@@ -163,14 +163,24 @@
             <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
 
-        <div class="work-nav">
-            <ul layout="row center-center">
-                <li><a href="#">all</a></li>
-                <li><a href="#">branding</a></li>
-                <li><a href="">web</a></li>
-                <li><a href="">logo design</a></li>
-                <li><a href="">photography</a></li>
-            </ul>
+        <div class="navbar navbar-default" id="work-nav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="nav">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">all</a></li>
+                    <li><a href="#">branding</a></li>
+                    <li><a href="">web</a></li>
+                    <li><a href="">logo design</a></li>
+                    <li><a href="">photography</a></li>
+                </ul>
+            </div>
+
         </div>
 
         <div class="photo">
@@ -319,44 +329,47 @@
             <i class="fa fa-heart-o" aria-hidden="true"></i>
         </div>
 
-        <div class="facts" layout="row center-center">
-            <div class="info" layout="column center-center">
-                <div class="icon">
-                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <div class="facts">
+            <div class="inline">
+                <div class="info fact-one" layout="column center-center">
+                    <div class="icon">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    </div>
+                    <figcaption>
+                        <p class="num">3200</p>
+                        <p class="fig-text">hours of work</p>
+                    </figcaption>
                 </div>
-                <figcaption>
-                    <p class="num">3200</p>
-                    <p class="fig-text">hours of work</p>
-                </figcaption>
-            </div>
 
-            <div class="info" layout="column center-center">
-                <div class="icon">
-                    <i class="fa fa-users" aria-hidden="true"></i>
+                <div class="info fact-two" layout="column center-center">
+                    <div class="icon" self="top">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                    </div>
+                    <figcaption self="top">
+                        <p class="num">120</p>
+                        <p class="fig-text">satisfied clients</p>
+                    </figcaption>
                 </div>
-                <figcaption>
-                    <p class="num">120</p>
-                    <p class="fig-text">satisfied clients</p>
-                </figcaption>
             </div>
-
-            <div class="info" layout="column center-center">
-                <div class="icon">
-                    <i class="fa fa-rocket" aria-hidden="true"></i> </div>
-                <figcaption>
-                    <p class="num">360</p>
-                    <p class="fig-text">projects delivered</p>
-                </figcaption>
-            </div>
-
-            <div class="info" layout="column center-center">
-                <div class="icon">
-                    <i class="fa fa-trophy" aria-hidden="true"></i>
+            <div class="inline">
+                <div class="info" layout="column center-center">
+                    <div class="icon">
+                        <i class="fa fa-rocket" aria-hidden="true"></i> </div>
+                    <figcaption>
+                        <p class="num">360</p>
+                        <p class="fig-text">projects delivered</p>
+                    </figcaption>
                 </div>
-                <figcaption>
-                    <p class="num">42</p>
-                    <p class="fig-text">awards won</p>
-                </figcaption>
+
+                <div class="info fact-four" layout="column center-center">
+                    <div class="icon" self="top">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                    </div>
+                    <figcaption self="top">
+                        <p class="num">42</p>
+                        <p class="fig-text">awards won</p>
+                    </figcaption>
+                </div>
             </div>
         </div>
     </section>
@@ -409,12 +422,12 @@
     </div>
 
     <footer>
-        <div class="foot-one">
+        <div class="foot-one f-block">
             <img src="img/logo-footer.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione fugiat, delectus nam mollitia inventore omnis iusto, reiciendis libero sit maiores culpa recusandae, sunt aperiam incidunt molestias!</p>
         </div>
 
-        <div class="subscribe">
+        <div class="subscribe f-block">
             <h2>Subscribe</h2>
             <div>
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -422,7 +435,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi.</p>
         </div>
 
-        <div class="explore">
+        <div class="explore f-block">
             <h2>Explore</h2>
             <ul>
                 <li><a href="#">Envato</a></li>

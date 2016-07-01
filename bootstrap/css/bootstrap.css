@@ -1442,7 +1442,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     display: block;
-    max-width: 100%;
+    /*    max-width: 100%;*/
     height: auto;
 }
 
@@ -5415,7 +5415,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #ffffff;
+}
+
+#work-nav .navbar-default .navbar-nav > li > a {
+    color: #000000;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
