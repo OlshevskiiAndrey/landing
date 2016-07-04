@@ -20,6 +20,7 @@
         z-index: 1;
         padding-top: 15px;
         width: 100%;
+        height: 90px;
         background-color: rgba(50, 48, 80, 0.3)
     }
     
@@ -38,12 +39,15 @@
     }
     
     .menu li {
-        margin: 0 50px;
+        display: inline-block;
+        margin: 0 35px;
     }
     
-    .navbar-header,
-    .navbar-brand {
+    .menu ul {
         display: inline-block;
+        padding-left: 0;
+        position: absolute;
+        right: 0;
     }
     
     .top p {
@@ -142,7 +146,7 @@
         color: #7d838a;
         line-height: 160%;
         display: table-cell;
-        padding: 0 20px;
+        padding: 0 20px 40px;
     }
     
     .develop {
@@ -231,8 +235,8 @@
         padding: 5px;
     }
     
-    #work-nav #nav {
-        float: none;
+    #work-nav ul {
+        padding-left: 0px;
     }
     
     .work {
@@ -403,15 +407,17 @@
         font-size: 40px;
     }
     
-    .facts figcaption {
+    .facts .figcaption {
         display: inline-block;
         color: #fff;
         text-align: center;
     }
     
     .num {
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 20px;
     }
     
     .fig-text {

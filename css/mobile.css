@@ -1,7 +1,10 @@
 @media screen and (max-width:768px) {
     .menu li {
         font-size: 14px;
-        margin: 0;
+    }
+    .hidden {
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
     }
     .txt {
         top: 30%;
@@ -9,7 +12,7 @@
     }
     .feat-blocks div {
         display: table;
-        padding: 0 20px;
+        padding: 0 20px 30px;
         width: 100%;
         font-size: smaller;
     }
@@ -49,7 +52,7 @@
 
 @media screen and (max-width:580px) {
     .txt {
-        top: 25%;
+        top: 30%;
         left: 18%;
     }
     .sar {
@@ -64,6 +67,9 @@
     }
     .center {
         display: none;
+    }
+    .city img {
+        height: 490px;
     }
     .facts {
         margin-top: 0;
@@ -100,6 +106,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    .txt {
+        top: 30%;
+        left: 15%;
+    }
     footer {
         display: table;
     }
@@ -117,11 +127,14 @@
 }
 
 @media screen and (max-width: 475px) {
-    .top {
-        background: none;
+    .menu li {
+        margin-bottom: 15px;
+    }
+    .menu ul {
+        margin-top: 0;
     }
     .txt {
-        top: 10%;
+        top: 75%;
         left: 30%;
     }
     .sar,
@@ -135,13 +148,18 @@
     .work {
         text-align: left;
     }
+    #work-nav ul {
+        text-align: center;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width:292px) {
     .txt {
-        top: 20%
+        top: 75%;
+        left: 15%;
     }
     .block-head h1 {
-        font-size: 34px;
+        font-size: 33px;
     }
 }

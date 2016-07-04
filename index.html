@@ -13,37 +13,23 @@
     <link rel="stylesheet" href="css/flex-layout-attribute.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-
 
 </head>
 
 <body>
     <header class="top">
-        <nav class="menu navbar navbar-default">
-            <div class="navbar-header">
-                <div class="navbar-brand hidden-xs">
-                    <div class="logo hidden-xs">
-                        <a href="#"><img src="img/logo.png" alt=""></a>
-                    </div>
-                    <p class="hidden-sm hidden-xs"><i>I'm your tag line</i></p>
-                </div>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+        <nav class="menu">
+            <div class="logo hidden">
+                <a href="#"><img src="img/logo.png" alt=""></a>
             </div>
-
-            <div class="navbar-collapse collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">features</a></li>
-                    <li><a href="#">works</a></li>
-                    <li><a href="#">team</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-            </div>
+            <p class="logo-txt hidden"><i>I'm your tag line</i></p>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">features</a></li>
+                <li><a href="#">works</a></li>
+                <li><a href="#">team</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -55,7 +41,7 @@
             <p class="creat"><span class="other-color">&frasl; creative</span> one page template</p>
             <p class="other-txt">We are a team of professionals</p>
 
-            <div class="soc" layout="row-center">
+            <div class="soc">
                 <a href="#"><i class="fa fa-twitter opasity" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-facebook opasity" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
@@ -163,23 +149,15 @@
             <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
 
-        <div class="navbar navbar-default" id="work-nav">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse" id="nav">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">all</a></li>
-                    <li><a href="#">branding</a></li>
-                    <li><a href="">web</a></li>
-                    <li><a href="">logo design</a></li>
-                    <li><a href="">photography</a></li>
-                </ul>
-            </div>
+        <div id="work-nav">
+            <ul>
+                <li><a href="#">all</a></li>
+                <li><a href="#">branding</a></li>
+                <li><a href="">web</a></li>
+                <li><a href="">logo design</a></li>
+                <li><a href="">photography</a></li>
+            </ul>
+        </div>
 
         </div>
 
@@ -271,10 +249,10 @@
                         <p class="hov-txt-two">ipsum dolor sit amet, consectetur adipisicing elit. Non omnis soluta dolore consectetur mollitia obcaecati.</p>
                     </div>
                 </div>
-                <figcaption>
+                <div class="figcaption">
                     <p class="name-team">John Filmr Doe</p>
                     <p class="position">Managing Director</p>
-                </figcaption>
+                </div>
             </div>
 
             <div class="team-photo">
@@ -285,10 +263,10 @@
                         <p class="hov-txt-two">ipsum dolor sit amet, consectetur adipisicing elit. Non omnis soluta dolore consectetur mollitia obcaecati.</p>
                     </div>
                 </div>
-                <figcaption>
+                <div class="figcaption">
                     <p class="name-team">Chystine Hineu</p>
                     <p class="position">Lead Designer</p>
-                </figcaption>
+                </div>
             </div>
 
             <div class="team-photo">
@@ -299,10 +277,10 @@
                         <p class="hov-txt-two">ipsum dolor sit amet, consectetur adipisicing elit. Non omnis soluta dolore consectetur mollitia obcaecati.</p>
                     </div>
                 </div>
-                <figcaption>
+                <div class="figcaption">
                     <p class="name-team">Martin Matrone</p>
                     <p class="position">Lead Developer</p>
-                </figcaption>
+                </div>
             </div>
 
             <div class="team-photo">
@@ -313,10 +291,10 @@
                         <p class="hov-txt-two">ipsum dolor sit amet, consectetur adipisicing elit. Non omnis soluta dolore consectetur mollitia obcaecati.</p>
                     </div>
                 </div>
-                <figcaption>
+                <div class="figcaption">
                     <p class="name-team">Steve Flaulkin</p>
                     <p class="position">Sr. UI Designer</p>
-                </figcaption>
+                </div>
             </div>
         </article>
     </section>
@@ -335,40 +313,40 @@
                     <div class="icon">
                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                     </div>
-                    <figcaption>
+                    <div class="figcaption">
                         <p class="num">3200</p>
                         <p class="fig-text">hours of work</p>
-                    </figcaption>
+                    </div>
                 </div>
 
                 <div class="info fact-two" layout="column center-center">
-                    <div class="icon" self="top">
+                    <div class="icon">
                         <i class="fa fa-users" aria-hidden="true"></i>
                     </div>
-                    <figcaption self="top">
+                    <div class="figcaption">
                         <p class="num">120</p>
                         <p class="fig-text">satisfied clients</p>
-                    </figcaption>
+                    </div>
                 </div>
             </div>
             <div class="inline">
                 <div class="info" layout="column center-center">
                     <div class="icon">
                         <i class="fa fa-rocket" aria-hidden="true"></i> </div>
-                    <figcaption>
+                    <div class="figcaption">
                         <p class="num">360</p>
                         <p class="fig-text">projects delivered</p>
-                    </figcaption>
+                    </div>
                 </div>
 
                 <div class="info fact-four" layout="column center-center">
-                    <div class="icon" self="top">
+                    <div class="icon">
                         <i class="fa fa-trophy" aria-hidden="true"></i>
                     </div>
-                    <figcaption self="top">
+                    <div class="figcaption">
                         <p class="num">42</p>
                         <p class="fig-text">awards won</p>
-                    </figcaption>
+                    </div>
                 </div>
             </div>
         </div>
@@ -410,15 +388,6 @@
                 <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
             </div>
         </article>
-
-        <!--
-        <div class="map" layout="row center-center">
-    <div class="image">
-        <img src="img/map.png" alt="">
-    </div>
-    <i class="fa fa-map-marker" aria-hidden="true"></i>
-</div>
--->
     </div>
 
     <footer>
@@ -451,8 +420,6 @@
             </ul>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>

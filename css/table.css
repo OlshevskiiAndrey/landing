@@ -1,7 +1,4 @@
 @media screen and (max-width:980px) {
-    .menu > li > a {
-        padding: 15px 8px;
-    }
     .logo {
         margin-left: 20px;
     }
